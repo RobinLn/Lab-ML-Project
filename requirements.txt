@@ -1,0 +1,52 @@
+## Libraries & Tools
+- Python 3.x  
+- Pandas, NumPy  
+- Matplotlib, Seaborn  
+- Scikit-learn  
+- Jupyter Notebook  
+
+---
+
+## Key Steps & Visualizations
+
+### 1. Data Cleaning
+- Handled missing values, duplicates, negative numbers, and decimal typos  
+
+### 2. Exploratory Data Analysis
+- **Univariate Analysis** – Distribution of lab measurements  
+
+![Distribution of Density](reports/density_distribution.png)  
+
+- **Bivariate Analysis** – Lab tests vs Label (Normal / Abnormal)  
+
+![Flash Point vs Label](reports/flash_point_vs_label.png)  
+
+### 3. Feature Engineering
+- Scaling numeric columns using StandardScaler  
+- Created ratios and interaction features  
+- Selected important features with Random Forest  
+
+### 4. Machine Learning
+- **Models Trained:** Logistic Regression, Random Forest, SVM  
+- **Evaluation:** Accuracy, Confusion Matrix, Classification Report  
+
+**Feature Importance (Random Forest):**  
+
+![Feature Importance](reports/feature_importance.png)  
+
+---
+
+## How to Use
+1. Clone the repository:  
+   ```bash
+
+   git clone https://github.com/your-username/Lab-ML-Project.git
+
+
+Results
+
+Random Forest achieved the highest accuracy
+
+Top predictive lab tests: Sulfur High, Flash Point, Micro Carbon
+
+Confusion matrix and classification reports provide detailed model evaluation
