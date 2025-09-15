@@ -41,10 +41,10 @@ Lab-ML-Project/
 │ ├── lab_dataset_cleaned.csv
 │ └── lab_features_engineered.csv
 ├── notebooks/
-│ ├── 1_Data_Cleaning.ipynb
-│ ├── 2_Univariate_Analysis.ipynb
-│ ├── 3_Bivariate_Analysis.ipynb
-│ └── 4_Feature_Engineering_ML.ipynb
+│ ├── Data_Cleaning.ipynb
+│ ├── Univariate_Analysis.ipynb
+│ ├── Bivariate_Analysis.ipynb
+│ └── Feature_Engineering_ML.ipynb
 ├── scripts/
 │ ├── data_cleaning.py
 │ ├── feature_engineering.py
